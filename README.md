@@ -32,9 +32,12 @@ The Makefile provides several targets to manage your development environment. He
  - `make stop`: Stops Docker containers.
  - `make clean`: Stops Docker containers and removes hive-metastore and spark-warehouse directories.
  - `make show-docs`: Generates and serves dbt documentation.
+
 Run the commands in your terminal within the project directory.
 
 ### 4. Additional Notes
 Customize the `environment.yml` file to add or update dependencies as needed.
+
 Modify the `docker-compose.yml` file to adjust Docker container configurations.
+
 Change Spark and Hive versions and configurations in `docker/` according to your needs.
