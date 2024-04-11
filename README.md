@@ -27,11 +27,11 @@ cd dbt_poc
 ### 3. Using the Makefile
 The Makefile provides several targets to manage your development environment. Here are some common commands:
 
-`make conda-clean`: Creates local dev environment based on environment.yml file.
-`make start`: Starts Docker containers.
-`make stop`: Stops Docker containers.
-`make clean`: Stops Docker containers and removes hive-metastore and spark-warehouse directories.
-`make show-docs`: Generates and serves dbt documentation.
+ - `make conda-clean`: Creates local dev environment based on environment.yml file.
+ - `make start`: Starts Docker containers.
+ - `make stop`: Stops Docker containers.
+ - `make clean`: Stops Docker containers and removes hive-metastore and spark-warehouse directories.
+ - `make show-docs`: Generates and serves dbt documentation.
 Run the commands in your terminal within the project directory.
 
 ### 4. Additional Notes
