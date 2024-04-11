@@ -1,0 +1,5 @@
+version: 2
+
+seeds:
+  - name: netflix_titles
+  - name: subgenres

@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: netflix_titles
+    description: "Seed model for Netflix data"
+    columns:
+      - name: show_id
+        description: "The ID of the show"
+      - name: type
+        description: "Type of the show (Movie or TV Show)"
+      - name: title
+        description: "Title of the show"
+      - name: director
+        description: "Director(s) of the show"
+      - name: cast
+        description: "Cast of the show"
+      - name: country
+        description: "Country of origin of the show"
+      - name: date_added
+        description: "Date when the show was added to Netflix"
+      - name: release_year
+        description: "Release year of the show"
+      - name: rating
+        description: "Rating of the show"
+      - name: duration
+        description: "Duration of the show"
+      - name: listed_in
+        description: "Genres/categories the show belongs to"
+      - name: description
+        description: "Description of the show"
+  - name: subgenres
+    description: "Seed model for subgenres"
+    columns:
+      - name: id
+        description: "The ID of the subgenre"
+      - name: genre
+        description: "Genre of the show"
+      - name: subgenre
+        description: "Subgenre of the show"

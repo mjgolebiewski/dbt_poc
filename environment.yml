@@ -1,0 +1,13 @@
+name: dbt-spark
+channels:
+  - defaults
+dependencies:
+  - python=3.9.13
+  - pre-commit
+  - pip
+  - pip:
+    - dbt-core
+    - dbt-spark
+    - dbt-spark[PyHive]
+    - dbt-spark[session]
+    - dbt-postgres
