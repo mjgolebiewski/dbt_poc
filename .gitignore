@@ -2,8 +2,10 @@
 target/
 dbt_packages/
 logs/
-metastore_db/
+
 seeds/*.csv
 __pycache__/
 .vscode/
-derby.log
+
+.spark-warehouse/
+.hive-metastore/
